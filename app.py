@@ -28,7 +28,7 @@ def load_and_train():
     model.fit(X_train, y_train)
     return df, model, list(model.feature_names_in_)
 df, model, model_columns = load_and_train()
-st.title("HK Used Car Price Estimator — YourName_SID_CA2 Prototype")                  #<- Change your name here!!!=======================================
+st.title("HK Used Car Price Estimator — HOHOLAM_250038669_CA2 Prototype")                  #<- Change your name here!!!=======================================
 st.write("Predicts **resale price (HKD)** from real Hong Kong Motor City transactions. This is a quote ballpark — not an official valuation form.")
 # Sliders and brand menus are built from FEATURES. Do not delete this loop.
 inputs = {}
